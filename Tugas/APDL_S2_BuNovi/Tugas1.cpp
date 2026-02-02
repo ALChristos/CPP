@@ -1,4 +1,4 @@
-/*Nama Anggota Kelompok: (TUGAS APD LANJUT MEMBUAT ARRAY 1D)
+/*Nama Anggota Kelompok: (TUGAS APD LANJUT MEMBUAT ARRAY 1D DENGAN CPP)
 1. Muhammad Fakih Nabal (2509105009) 
 2. Muhammad Rafli Adila Risdi Saputra (2509106013) 
 3. Jovan Christo Alvaro (2509106031)
@@ -38,16 +38,16 @@ int main(){
         if(nilai[i] >= 80 && nilai[i] <= 100){
             cout<<"A";
         }
-        else if(nilai[i] >= 70 && nilai[i] <= 80){
+        else if(nilai[i] >= 70 && nilai[i] < 80){
             cout<<"B";
         }
-        else if(nilai[i] >= 60 && nilai[i] <= 70){
+        else if(nilai[i] >= 60 && nilai[i] < 70){
             cout<<"C";
         }
-        else if(nilai[i] >= 50 && nilai[i] <= 60){
+        else if(nilai[i] >= 50 && nilai[i] < 60){
             cout<<"D";
         }
-        else if(nilai[i] >= 40 && nilai[i] <= 50){
+        else if(nilai[i] >= 40 && nilai[i] < 50){
             cout<<"E";
         }
         else if (nilai[i] > 100 || nilai[i] < 0 ){
